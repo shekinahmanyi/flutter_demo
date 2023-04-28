@@ -8,7 +8,7 @@ void main() => runApp(MaterialApp(
           backgroundColor: Colors.red[600],
         ),
         body: const Center(
-          child: Text('Hello Shekinah',
+          child: Text('Hello Shekinah!',
           style: TextStyle(
             fontSize: 20.0,
             fontWeight: FontWeight.bold,
@@ -18,9 +18,5 @@ void main() => runApp(MaterialApp(
           ),
           ),
         ),
-        floatingActionButton: const FloatingActionButton( 
-          onPressed: () {},
-          backgroundColor: Colors.red,
-          child: Text('click'),
       ),
     ));
